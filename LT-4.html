@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Task 04</title>
+</head>
+
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form action="#" method="post">
+
+    <!-- Personal Information -->
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        <p>
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required>
+        </p>
+
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required>
+        </p>
+
+        <p>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob">
+        </p>
+
+        <p>
+            Gender:<br>
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="Male">
+                Male
+            </label>
+
+            <label for="female">
+                <input type="radio" id="female" name="gender" value="Female">
+                Female
+            </label>
+
+            <label for="other">
+                <input type="radio" id="other" name="gender" value="Other">
+                Other
+            </label>
+        </p>
+
+    </fieldset>
+
+    <!-- Academic Information -->
+    <fieldset>
+        <legend>Academic Information</legend>
+
+        <p>
+            <label for="department">Department:</label><br>
+            <select id="department" name="department">
+                <option value="">--Select Department--</option>
+                <option value="CSE">CSE</option>
+                <option value="CS">CS</option>
+                <option value="SE">SE</option>
+                <option value="EEE">EEE</option>
+                 <option value="PHARMACY">PHARMACY</option>
+            </select>
+        </p>
+
+        <p>
+            Skills:<br>
+
+            <label for="html">
+                <input type="checkbox" id="html" name="skills" value="HTML">
+                HTML
+            </label>
+
+            <label for="css">
+                <input type="checkbox" id="css" name="skills" value="CSS">
+                CSS
+            </label>
+
+            <label for="js">
+                <input type="checkbox" id="js" name="skills" value="JavaScript">
+                JavaScript
+            </label>
+
+            <label for="python">
+                <input type="checkbox" id="python" name="skills" value="Python">
+                Python
+            </label>
+        </p>
+
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </p>
+
+</form>
+
+</body>
+</html>
