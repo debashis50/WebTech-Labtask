@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* ========================= */
+/* Part A: Box Model */
+/* ========================= */
+
+.box1 {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid green;
+    margin: 30px;
+    background-color: lightgreen;
+}
+
+.box3 {
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    border: 15px solid blue;
+    margin: 40px;
+    background-color: lightcoral;
+}
+
+/* ========================= */
+/* Part B: Box Sizing */
+/* ========================= */
+
+.default-box {
+    width: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.border-box {
+    width: 200px;
+    padding: 20px;
+    border: 10px solid purple;
+    background-color: lightyellow;
+    box-sizing: border-box;
+}
+
+/* ========================= */
+/* Part C: Display Properties */
+/* ========================= */
+
+.block-example {
+    display: block;
+    background-color: lightpink;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.inline-example {
+    display: inline;
+    background-color: orange;
+    padding: 10px;
+}
+
+.inline-block-example {
+    display: inline-block;
+    width: 150px;
+    background-color: lightseagreen;
+    padding: 10px;
+    margin: 5px;
+}
+
+.none-example {
+    display: none;
+}
+
+/* ========================= */
+/* Part D: Visibility vs Display */
+/* ========================= */
+
+.visibility-hidden {
+    visibility: hidden;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    margin: 10px 0;
+}
+
+.display-none {
+    display: none;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+}
+
+.normal-box {
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    margin-top: 10px;
+}
